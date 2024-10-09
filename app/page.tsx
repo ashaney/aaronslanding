@@ -14,7 +14,7 @@ export default function Home() {
 
         <section>
           <h2 className="mb-2">about me ⁘</h2>
-          <Link href="/about" className="hover:underline">learn more</Link>
+          <Link href="/about" className="hover:underline">click here</Link>
         </section>
 
         <Separator className="bg-white/20" />

@@ -3,6 +3,16 @@ import { Separator } from "@/components/ui/separator"
 import { Music, Code, TreePine, Globe, Users } from 'lucide-react';
 
 export default function About() {
+  const currentDate = new Date();
+  const birthDate = new Date('1986-08-01');
+  const jan2000 = new Date('2000-01-01').getTime();
+  const yearsSince2000 = Math.floor((currentDate.getTime() - jan2000) / (365.25 * 24 * 60 * 60 * 1000));
+  const oldSite = 'https://web.archive.org/web/20010429071232/http://www.geocities.com/liquidsnk_mgs/';
+  
+  const myAge = currentDate.getFullYear() - birthDate.getFullYear() -
+    (currentDate.getMonth() < birthDate.getMonth() || 
+    (currentDate.getMonth() === birthDate.getMonth() && currentDate.getDate() < birthDate.getDate()) ? 1 : 0);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 text-sm">
       <div className="w-full max-w-2xl space-y-8">
@@ -46,6 +56,15 @@ export default function About() {
         <section>
           <h2 className="mb-2">philosophy ⁘</h2>
           <p>i like to explore the cracks between cold hard data and the wild unpredictability of existence.</p>
+        </section>
+
+        <Separator className="bg-white/20" />
+
+        <section>
+          <h2 className="mb-2">history ⁘</h2>
+          <p>i am {myAge} years old. i visit japan often so feel free to ask me about my travels.</p>
+          <p>i created my <a href={oldSite} target="_blank" className="hover:underline">first html page</a> back in the year 2000, which was {yearsSince2000} years ago.</p>
+          <p>time flies.</p>
         </section>
 
         <Separator className="bg-white/20" />
