@@ -6,6 +6,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-24 text-sm">
       <div className="w-full max-w-2xl space-y-8">
         <section>
+          <h2 className="mb-2">hello ⁘</h2>
+          <p>i'm aaron. welcome to my page.</p>
+        </section>
+
+        <Separator className="bg-white/20" />
+
+        <section>
           <h2 className="mb-2">about me ⁘</h2>
           <Link href="/about" className="hover:underline">learn more</Link>
         </section>
@@ -15,9 +22,9 @@ export default function Home() {
         <section>
           <h2 className="mb-4">watch ⁘ listen ⁘ read ⁘</h2>
           <ul className="space-y-2">
-            <li><Link href="#" className="hover:underline">youtube</Link></li>
-            <li><Link href="#" className="hover:underline">blog</Link></li>
-            <li><Link href="#" className="hover:underline">fitness log</Link></li>
+            <li><Link href="https://www.youtube.com/@yetanotherpodcast" className="hover:underline">youtube</Link></li>
+            <li><Link href="https://exploringthe.space" className="hover:underline">blog</Link></li>
+            <li><Link href="https://vitalis.cloud" className="hover:underline">fitness log</Link></li>
           </ul>
         </section>
 
@@ -26,7 +33,7 @@ export default function Home() {
         <section>
           <h2 className="mb-4">projects ⁘</h2>
           <ul>
-            <li><Link href="#" className="hover:underline">zhabits</Link></li>
+            <li><Link href="https://zhabits.com" className="hover:underline">zhabits</Link></li>
           </ul>
         </section>
       </div>
