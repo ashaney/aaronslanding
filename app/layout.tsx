@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider"
 const firaCode = Fira_Code({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'my minimal homepage',
-  description: 'a simple, dark-themed homepage',
+  title: "aaron's homepage",
+  description: 'my landing page',
 };
 
 export default function RootLayout({
