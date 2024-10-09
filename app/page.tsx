@@ -3,8 +3,8 @@ import { Separator } from "@/components/ui/separator"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 text-sm">
-      <div className="w-full max-w-2xl space-y-8">
+    <main className="flex min-h-screen flex-col items-center justify-center p-12 text-sm">
+      <div className="w-full max-w-3xl space-y-8 mt-12">
         <section>
           <h2 className="mb-2">hello ⁘</h2>
           <p>i'm aaron. welcome to my page.</p>
@@ -32,8 +32,9 @@ export default function Home() {
 
         <section>
           <h2 className="mb-4">projects ⁘</h2>
-          <ul>
+          <ul className="space-y-2">
             <li><Link href="https://zhabits.com" className="hover:underline">zhabits</Link></li>
+            <li><Link href="https://github.com/ashaney" className="hover:underline">Github</Link></li>
           </ul>
         </section>
       </div>

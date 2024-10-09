@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Fira_Code } from 'next/font/google';
 import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 const firaCode = Fira_Code({ subsets: ['latin'] });
 
@@ -20,8 +21,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
       </head>
-      <body className={`${firaCode.className} bg-black text-white`}>
+      <body className={`${firaCode.className} bg-background text-foreground min-h-screen`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <div className="fixed top-4 right-4 z-50">
+            <ThemeToggle />
+          </div>
           {children}
         </ThemeProvider>
       </body>
