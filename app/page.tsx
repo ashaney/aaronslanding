@@ -23,7 +23,7 @@ export default function Home() {
           <h2 className="mb-4">watch ⁘ listen ⁘ read ⁘</h2>
           <ul className="space-y-2">
             <li><Link href="https://www.youtube.com/@yetanotherpodcast" className="hover:underline">youtube</Link></li>
-            <li><Link href="https://exploringthespace.pika.page/" className="hover:underline">blog</Link></li>
+            <li><Link href="https://exploringthe.space/" className="hover:underline">blog</Link></li>
             <li><Link href="https://vitalis.cloud" className="hover:underline">fitness log</Link></li>
           </ul>
         </section>
