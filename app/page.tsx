@@ -22,9 +22,9 @@ export default function Home() {
         <section>
           <h2 className="mb-4">watch ⁘ listen ⁘ read ⁘</h2>
           <ul className="space-y-2">
-            <li><Link href="https://www.youtube.com/@yetanotherpodcast" className="hover:underline">youtube</Link></li>
+            <li><Link href="https://www.youtube.com/@iaminprogress" className="hover:underline">youtube</Link></li>
             <li><Link href="https://exploringthe.space/" className="hover:underline">blog</Link></li>
-            <li><Link href="https://vitalis.cloud" className="hover:underline">fitness log</Link></li>
+            <li><Link href="https://https://note.com/quiet_sage0000" className="hover:underline">ノート</Link></li>
           </ul>
         </section>
 
@@ -33,8 +33,8 @@ export default function Home() {
         <section>
           <h2 className="mb-4">projects ⁘</h2>
           <ul className="space-y-2">
-            <li><Link href="https://zhabits.com" className="hover:underline">zhabits</Link></li>
-            <li><Link href="https://github.com/ashaney" className="hover:underline">Github</Link></li>
+            <li><Link href="https://sigmatic.work" className="hover:underline">sigmatic</Link></li>
+            <li><Link href="https://github.com/ashaney" className="hover:underline">github</Link></li>
           </ul>
         </section>
       </div>
