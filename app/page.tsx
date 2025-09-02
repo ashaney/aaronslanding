@@ -10,7 +10,7 @@ export default function Home() {
           <p>i&rsquo;m aaron. welcome to my page.</p>
         </section>
 
-        <Separator className="bg-white/20" />
+        <Separator className="bg-black/20 dark:bg-white/20" />
 
         <section>
           <h2 className="mb-2">about me ⁘</h2>
@@ -39,7 +39,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <Separator className="bg-white/20" />
+        <Separator className="bg-black/20 dark:bg-white/20" />
 
         <section>
           <h2 className="mb-4">watch ⁘ listen ⁘ read ⁘</h2>
@@ -71,7 +71,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <Separator className="bg-white/20" />
+        <Separator className="bg-black/20 dark:bg-white/20" />
 
         <section>
           <h2 className="mb-4">personal projects ⁘</h2>
@@ -100,7 +100,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <Separator className="bg-white/20" />
+        <Separator className="bg-black/20 dark:bg-white/20" />
 
         <section>
           <h2 className="mb-4">work projects ⁘</h2>
