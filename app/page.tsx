@@ -77,6 +77,11 @@ export default function Home() {
           <h2 className="mb-4">personal projects ⁘</h2>
           <ul className="space-y-2">
             <li>
+              <Link href="https://fivethings.today" className="hover:underline">
+                5 things
+              </Link>
+            </li>
+            <li>
               <Link
                 href="https://hello.omoshiro.app"
                 className="hover:underline"
