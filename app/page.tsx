@@ -83,14 +83,6 @@ export default function Home() {
             </li>
             <li>
               <Link
-                href="https://hello.omoshiro.app"
-                className="hover:underline"
-              >
-                omoshiro
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="https://well-traveled.app/"
                 className="hover:underline"
               >
@@ -105,23 +97,6 @@ export default function Home() {
           </ul>
         </section>
 
-        <Separator className="bg-black/20 dark:bg-white/20" />
-
-        <section>
-          <h2 className="mb-4">work projects ⁘</h2>
-          <ul className="space-y-2">
-            <li>
-              <Link href="https://omnisort.app" className="hover:underline">
-                omnisort
-              </Link>
-            </li>
-            <li>
-              <Link href="https://minamo.app" className="hover:underline">
-                minamo
-              </Link>
-            </li>
-          </ul>
-        </section>
       </div>
     </main>
   );
