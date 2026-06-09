@@ -46,10 +46,10 @@ export default function Home() {
           <ul className="space-y-2">
             <li>
               <Link
-                href="https://www.youtube.com/@iaminprogress"
+                href="https://workingnotes.io"
                 className="hover:underline"
               >
-                youtube
+                substack
               </Link>
             </li>
             <li>
